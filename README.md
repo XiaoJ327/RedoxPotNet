@@ -12,6 +12,8 @@ cd RedoxPotNet
 pip install -e .
 ```
 
+The complete gene sets and pretrained model weights are not included in this prepublication repository and will be made available upon publication of the associated manuscript. 
+
 ## Input format
 
 For file-based prediction, the expression matrix must have **genes in rows** and **samples in columns**. The first column contains HGNC gene symbols.
@@ -55,5 +57,6 @@ RedoxPotNet has been tested with:
 ```
 
 GPU acceleration is not required for RedoxPotNet inference.
+
 
 
